@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image img{
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: black;
+    z-index: 1;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color:black;
+    border: 2px solid rgb(93, 255, 12);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    a {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
