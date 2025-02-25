@@ -1,0 +1,37 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#A7A8CD;
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.top{
+    background-image: url(./Ass3-Asset/pexels-valentinantonucci-691640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 150px;
+}
+
+.Bottom{
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+}
+
+h1, h4{
+    display: inline;
+}
+
+h4{
+    color: #BABABA;
+}
