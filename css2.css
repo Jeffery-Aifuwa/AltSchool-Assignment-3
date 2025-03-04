@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 50px;
+    margin: 0 auto;
+    padding: 30px;
     background-color: gainsboro
 }
 
@@ -13,7 +13,7 @@ h4{
     border-bottom: 5px solid goldenrod;
     display: inline;
     padding-left: 30px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 15px;
     padding-right: 15px;
 }
@@ -33,7 +33,6 @@ p, h2{
 }
 
 .box-1{
-    width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
     border: 1px solid gainsboro;
