@@ -1,39 +1,37 @@
 body{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: black;
-    color: black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 .container{
     display: grid;
-    max-width: 100%;
-    margin: auto;
+    max-width: 350px;
 }
 
 .topic{
     position: relative;
     margin: 0 auto;
     z-index: 1;
-    background-color: rgb(255, 0, 81);
+    background-color: #FF0095;
     border-radius: 5px;
     text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    top: 50px;
+    top: 65px;
 }
 
 .content{
-    max-width: 25%;
-    margin: 0 auto;
     padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
