@@ -1,4 +1,8 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:#A7A8CD;
     margin: 0 auto;
@@ -6,26 +10,45 @@ body{
 
 .container{
     display: grid;
-    padding: 20px;
-    width: 40%;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    width: 100%;
 }
 
-.top{
-    background-image: url(./Ass3-Asset/pexels-valentinantonucci-691640.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 150px;
+img{
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .Bottom{
+    padding: 20px;
     background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 500px;
     padding: 20px;
+    box-sizing: border-box;
+}
+
+.tag{
+    position: absolute;
+    top: 27px;
+    left: -2px;
+    background-color: #FDF1B5;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 h1, h4{
